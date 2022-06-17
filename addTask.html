@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/addTask.css">
+    <script src="https://kit.fontawesome.com/4b14ee6d2c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Add Task</title>
+</head>
+<body>
+    <nav class="navbar navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.svg" alt="" height="57.92px" width="65.88px" class="d-inline-block">
+                <span class="text" style="margin-left: 6px;">DoTick</span> 
+            </a>
+
+            <div class="dropdown d-flex">
+                <a class="dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="text" style="margin-right: 21px;">James</span>
+                    <img src="images/profile-picture.png" alt="" height="57.92px" width="65.88px" class="d-inline-block">
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                          <span class="text">Profile</span>
+                          <img src="images/profile.svg" alt="" class="d-inline-block">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <span class="text">Settings</span>
+                            <img src="images/slide-bars.svg" alt="" class="d-inline-block">
+                        </a>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <span class="text">Log Out</span>
+                            <img src="images/logout.svg" alt="" class="d-inline-block">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container sidebars">
+        <div class="row first-row">
+            <div class="col-lg-4 firstcolumn left">
+                <ul>
+                    <li class="today">
+                        <a href="">
+                            <img src="images/today.svg" alt="" width="29px" height="29px" class="d-inline-block">
+                            <span class="text">Today</span>
+                        </a>
+                    </li>
+
+                    <li class="yesterday">
+                        <a href="">
+                            <img src="images/yesterday.svg" alt="" width="29px" height="29px" class="d-inline-block">
+                            <span class="text">Yesterday</span>
+                        </a>
+                    </li>
+
+                    <li class="upcoming">
+                        <a href="">
+                            <img src="images/upcoming.svg" alt="" width="29px" height="29px" class="d-inline-block">
+                            <span class="text">Upcoming</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-lg-8 secondcolumn">
+                <div>
+                    <h1 class="heading">Yesterday</h1>
+                    <p class="subheading"></p>
+
+                    <div class="tasks">
+                        <div class="task">
+                            <img src="images/checklist.svg" alt="" height="25px" width= "26px">
+                            <div class="card">
+                                <div class="col-lg-9">
+                                    <h6 class="card-subtitle heading">
+                                        Cooking a salmon sushi
+                                    </h6>
+
+                                    <p class="card-body text">
+                                        Salmon and tuna i think is good for dinner, i wanna make it today :D
+                                    </p>
+                                </div>
+                                <div class="col-lg-3"></div>
+                            </div>
+                        </div>
+                        <div class="task">
+                            <img src="images/checklist.svg" alt="" height="25px" width= "26px">
+                            <div class="card">
+                                <div class="col-lg-9">
+                                    <h6 class="heading card-subtitle">
+                                        Write code for fizz buzz algorithm
+                                    </h6>
+
+                                    <p class="text card-body">
+                                        Salmon and tuna i think is good for dinner, i wanna make it today :D
+                                    </p>
+                                </div>
+                                <div class="col-lg-3"></div>
+                            </div>
+                        </div>
+                        <div class="task">
+                            <img src="images/checklist.svg" alt="" height="25px" width= "26px">
+                            <div class="card">
+                                <div class="col-lg-9">
+                                    <h6 class="heading card-subtitle">
+                                        Build Todo Daily app
+                                    </h6>
+
+                                    <p class="text card-body">
+                                        Salmon and tuna i think is good for dinner, i wanna make it today :D
+                                    </p>
+                                </div>
+                                <div class="col-lg-3"></div>
+                            </div>
+                        </div>
+                        <div class="task">
+                            <div class="card">
+                                <h6 class="card-subtitle heading">
+                                    Do maths  homework
+                                </h6>
+                                <hr>
+                                <p class="card-body text">
+                                    Do chapter  2 -5 for next week
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="btn">
+                        <button type="submit" class="btn-primary">Add</button>
+                        <button class="btn-secondary">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
