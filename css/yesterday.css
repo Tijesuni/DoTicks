@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rosario:wght@700&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Rosario:wght@700&family=Rubik:wght@700&display=swap');
 
 *, ::after, ::before{
     box-sizing: border-box;
@@ -150,6 +150,55 @@
     position: absolute;
     top: 45%;
     right: 32px;
+}
+
+.modal-content{
+    height: 50%;
+    width: 747px !important;
+    background-color: #0E2045 !important;
+    color: #ffffff !important;
+    padding-top: 56px;
+    padding-left: 131px;
+    padding-right: 120px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.modal-content h5{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.87);
+    line-height: 56px;
+}
+
+.modal-content .text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.55px;
+    line-height: 150.5%;
+    margin-top: 21px;
+}
+
+.modal-content a{
+    background-color: #3D73DD;
+    padding: 17.4128px 34px 17.4128px 44.8257px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 9.13761px;
+}
+
+.modal-content a, .modal-content a:hover{
+    color: #FFFFFF;
+}
+
+.modal-content a:visited{
+    color: #ffffff;
 }
 
 li{
