@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
     <script src="https://kit.fontawesome.com/4b14ee6d2c.js" crossorigin="anonymous"></script>
-    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Profile</title>
 </head>
 <body>
@@ -25,7 +25,7 @@
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start" aria-labelledby="navbarScrollingDropdown">
                     <li>
-                        <a class="dropdown-item" href="#">
+                        <a class="dropdown-item" href="index.html">
                             <img src="images/profile.svg" alt="" class="d-inline-block">
                           <span class="text">Profile</span>
                         </a>
@@ -48,46 +48,59 @@
         </div>
     </nav>
 
-    <main class="sidebar">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 left-side">
-                    <ul class="sidelist">
-                        <li class="profile">
-                            <a href="#">
-                                <span class="tool">
-                                    <img src="images/profile.svg" alt="profile icon" width="29px" height="29px">
-                                </span>
-                                <span class="text">Profile</span>
-                            </a>
-                        </li>
-    
-                        <li class="setting">
-                            <a href="">
-                                <span class="tool">
-                                    <img src="images/Settings.svg" alt="" width="29px" height="29px">
-                                </span>
-                                <span class="text">Setting</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-8 right-side">
-                    <div>
-                        <div class="circle-border">
-                            <img src="images/download.svg" alt="">
-                        </div>
+    <div class="container sidebars">
+        <div class="row first-row">
+            <div class="col-lg-3 firstcolumn left">
+                <ul style="padding-left: 0px;">
+                    <li class="profile">
+                        <a href="index.html">
+                            <img src="images/profile.svg" alt="" width="29px" height="29px" class="d-inline-block">
+                            <span class="text">Profile</span>
+                        </a>
+                    </li>
 
-                        <form action="">
-                            <input type="text" placeholder="Enter your name" required> <br>
-                            <input type="text" placeholder="Enter your username" required> <br>
-                            <button type="submit" class="btn btn-primary">Apply</button>
-                            <button type="submit" class="btn btn-secondary">Cancel</button>
-                        </form>
+                    <li class="Settings">
+                        <a href="#">
+                            <img src="images/Settings.svg" alt="" width="29px" height="29px" class="d-inline-block">
+                            <span class="text">Settings</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-lg-9 right secondcolumn">
+                <div>
+                    <div class="circle-border">
+                        <img src="images/download.svg" alt="">
                     </div>
+
+                    <form action="" class="needs-validation" novalidate>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Enter your Name" required> <br>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please fill in your name
+                        </div>
+                        <div class="has-validation">
+                            <input type="text" class="form-control" id="validationCustomUsername" placeholder="Enter you Username" required> <br>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please fill in your username
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Apply</button>
+                        <button type="submit" class="btn btn-secondary">Cancel</button>
+                    </form>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
+
+    <script src="js/script.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
