@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@700&display=swap');
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.container{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.navbar{
+    background-color: #0E2045 !important;
+}
+
+.navbar .container-fluid a{
+    color: #ffffff !important;
+}
+
+.navbar .text{
+    text-align: center;
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 28px !important;
+}
+
+.navbar .dropdown-menu{
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.dropdown-menu .text{
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 21px !important;
+}
+
+.dropdown-item{
+    width: 272px;
+    padding-left: 11px !important;
+    padding-right: 140px !important;
+    padding-top: 20px !important;
+    padding-bottom: 15px !important;
+}
+
+.navbar .dropdown-menu a{
+    color: #040404 !important;
+    text-align: center;
+}
+
+a{
+    text-decoration: none !important;
+}
