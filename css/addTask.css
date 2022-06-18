@@ -30,6 +30,34 @@ body{
     line-height: 28px !important;
 }
 
+.navbar .dropdown-menu{
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.dropdown-menu .text{
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 21px !important;
+}
+
+.dropdown-item{
+    width: 272px;
+    padding-left: 11px !important;
+    padding-right: 140px !important;
+    padding-top: 20px !important;
+    padding-bottom: 15px !important;
+}
+
+.navbar .dropdown-menu a{
+    color: #040404 !important;
+    text-align: center;
+}
+
 .row .left{
     background-color: #F9F9F9 !important;
     height: 100vh;
@@ -58,6 +86,110 @@ a{
 
 .sidebars a:hover{
     color: #3D73DD !important;
+}
+
+.secondcolumn h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #3D73DD;
+    padding-bottom: 22px;
+}
+
+.secondcolumn p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #414141;
+    padding-bottom: 22px;
+}
+
+.card{
+    font-family: 'Roboto';
+    font-weight: 400;
+    width: 100%;
+}
+
+.card-subtitle{
+    padding-left: 19px;
+    padding-top: 9px;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.card-body{
+    padding-bottom: 19px;
+    padding-left: 19px;
+    padding-top: 9px;
+    font-style: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #787878;
+}
+
+.task{
+    margin-top: 30px;
+    display: flex;
+}
+
+.task img{
+    float: left;
+}
+
+.task .card{
+    float: right;
+    margin-left: 13px;
+}
+
+.task .adding{
+    margin-left: 39px !important;
+}
+
+.secondcolumn .button{
+    margin-left: 39px !important;
+}
+
+.secondcolumn .btn{
+    height: 39px;
+    width: 120px;
+    margin-right: 10px;
+    border-radius: 8px;
+} 
+
+.secondcolumn .btn-secondary{
+    color: #3D73DD;
+    background-color: transparent;
+    border: 1px solid #3D73DD;
+}
+
+.card .modification{
+    position: absolute;
+    align-self: flex-end;
+    top: 15%;
+    right: 2%;
+}
+
+.card .modification img{
+    margin-right: 27px;
+}
+
+.card .delete{
+    width: 176px;
+    height: 59px;
+    padding-left: 14px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    align-self: flex-end;
+    position: absolute;
+    top: 50%;
+    right: 32px;
 }
 
 li{
