@@ -65,3 +65,15 @@ body{
 a{
     text-decoration: none !important;
 }
+
+.dropdown .dropdown-menu .dropdown-item img{
+    filter: invert(51%) sepia(0%) saturate(558%) hue-rotate(134deg) brightness(78%) contrast(77%);
+}
+
+.dropdown .dropdown-menu .dropdown-item img:hover{
+    filter: invert(39%) sepia(70%) saturate(6704%) hue-rotate(357deg) brightness(98%) contrast(95%);
+}
+
+.dropdown .dropdown-menu .dropdown-item .text:hover{
+    color: #F4380E;
+}

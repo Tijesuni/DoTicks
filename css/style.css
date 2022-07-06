@@ -110,3 +110,7 @@ body{
 li{
     list-style: none;
 }
+
+.sidebars .row .left img:hover{
+    filter: invert(45%) sepia(96%) saturate(2956%) hue-rotate(206deg) brightness(90%) contrast(92%);
+}
